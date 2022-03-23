@@ -1,19 +1,23 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import Zoo from './components/zoo/zoo';
 import AnimalDetail from './components/animalDetail/animalDetail';
 import Header from './components/header/header';
+import elementStore from './redux/configureStore';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Zoo />} />
-        <Route path="/Zoo" element={<Zoo />} />
-        <Route path="/AnimalDetail" element={<AnimalDetail />} />
-      </Routes>
-    </div>
+    <Provider store={elementStore}>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Zoo />} />
+          <Route path="/Zoo" element={<Zoo />} />
+          <Route path="/AnimalDetail/:id" element={<AnimalDetail />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
