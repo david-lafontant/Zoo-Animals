@@ -19,7 +19,7 @@ function Animal(props) {
   return (
     <div id={id}>
 
-      <Link to="/AnimalDetail"><button type="button" onClick={handleToggleClick}>Detail</button></Link>
+      <Link to={`/AnimalDetail/${id}`}><button type="button" onClick={handleToggleClick}>Detail</button></Link>
       <ul>
         <li>
           <img src={image} alt={name} style={{ width: '150px' }} />
