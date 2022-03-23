@@ -62,7 +62,6 @@ const reducer = (state = initialState, action) => {
       });
       return [...newState];
     }
-
     case REMOVE_DETAIL: {
       const newState = state.map((animal) => {
         if (animal.id !== action.payload.id) return animal;
@@ -70,9 +69,9 @@ const reducer = (state = initialState, action) => {
       });
       return [...newState];
     }
-
     case GET_ZOO:
       return [...action.payload];
+
     default:
       return state;
   }

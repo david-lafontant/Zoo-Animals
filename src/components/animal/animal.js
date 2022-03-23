@@ -1,6 +1,7 @@
 // import AnimalDetail from "../animalDetail/animalDetail";
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { PropTypes } from 'prop-types';
 import { toggleDetail } from '../../redux/zoo/zoo';
 
 function Animal(props) {
@@ -36,5 +37,13 @@ function Animal(props) {
     </div>
   );
 }
+
+Animal.propTypes = {
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+
+};
 
 export default Animal;
