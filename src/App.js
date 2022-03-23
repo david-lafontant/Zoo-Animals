@@ -1,11 +1,13 @@
-import "./App.css";
-import Zoo from "./components/zoo/zoo";
-import AnimalDetail from "./components/animalDetail/animalDetail";
-import { Routes, Route } from "react-router-dom";
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Zoo from './components/zoo/zoo';
+import AnimalDetail from './components/animalDetail/animalDetail';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route exact path="/" element={<Zoo />} />
         <Route path="/Zoo" element={<Zoo />} />
