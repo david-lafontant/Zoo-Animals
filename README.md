@@ -46,7 +46,7 @@
 [Netlify](https://the-zoo-animal.netlify.app/)
 
 ## Presentation video
-[Loom](https://www.loom.com/share/999987edd28b47f791da9dba7149a5f7)
+[Loom](https://www.loom.com/share/9bf6f1798dca480d9f9fb141762cbcce)
 
 ## Description
 
