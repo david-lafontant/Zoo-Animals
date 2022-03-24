@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
@@ -17,27 +16,41 @@ function Animal(props) {
     type,
     name,
     image,
+    weight_max,
+    lifespan,
   } = props;
 
   return (
-    <Col id={id} sm={6} lg={6} className={AnimalCSS.animalWidth}>
+    <div className={AnimalCSS.animalWidth}>
 
-      <Link to={`/AnimalDetail/${id}`}><button type="button" className={AnimalCSS.buttonRight} onClick={handleToggleClick}>D</button></Link>
+      <Link to={`/AnimalDetail/${id}`}><button type="button" className={AnimalCSS.buttonRight} onClick={handleToggleClick}>DETAIL</button></Link>
       <ul className={AnimalCSS.listStyle}>
-        <li>
-          <Card.Img src={image} alt={name} style={{ width: '150px', maxHeight: '30vh' }} />
+        <li style={{ paddingBottom: '2rem' }}>
+          <Card.Img src={image} alt={name} style={{ width: '100px', maxHeight: '30vh' }} />
         </li>
-        <li>
-          Name :
-          {name}
+        <li className={AnimalCSS.listInfo}>
+          <span>Name :</span>
+          <span>{name}</span>
+
         </li>
-        <li>
-          Type :
-          {type}
+        <li className={AnimalCSS.listInfo}>
+          <span>Type :</span>
+          <span>{type}</span>
+
+        </li>
+        <li className={AnimalCSS.listInfo}>
+          <span>Lifespan :</span>
+          <span>{lifespan}</span>
+
+        </li>
+        <li className={AnimalCSS.listInfo}>
+          <span>Weight (max) :</span>
+          <span>{weight_max}</span>
+
         </li>
       </ul>
 
-    </Col>
+    </div>
   );
 }
 
@@ -46,6 +59,8 @@ Animal.propTypes = {
   id: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
+  lifespan: PropTypes.string.isRequired,
+  weight_max: PropTypes.string.isRequired,
 
 };
 

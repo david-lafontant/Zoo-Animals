@@ -2,14 +2,26 @@
     list-style-type: none;
 }
 
+
+.listInfo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    gap: 1rem;
+
+}
+
 .animalWidth{
     height: 50vh;
     padding-top: 1rem;
+    border: thin solid #02031f;
+    width: 50%;
 }
 
 .animalWidth a{
 display: flex;
 justify-content: flex-end;
+padding-right: 2rem;
 }
 
 .buttonRight{
@@ -17,4 +29,9 @@ justify-content: flex-end;
    background-size: contain;
    color: transparent;
    border-radius: 50%;
+}
+
+button{
+    border: none;
+    color: transparent;
 }
