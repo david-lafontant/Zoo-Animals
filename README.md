@@ -12,6 +12,7 @@
 - [Zoo's Animals](#zoos-animals)
   - [Table of Contents](#table-of-contents)
   - [Live Demo](#live-demo)
+  - [Presentation video](#presentation-video)
   - [Description](#description)
   - [Built With](#built-with)
   - [Getting Started](#getting-started)
@@ -44,7 +45,8 @@
 
 [Netlify](https://the-zoo-animal.netlify.app/)
 
-
+## Presentation video
+[Loom](https://www.loom.com/share/999987edd28b47f791da9dba7149a5f7)
 
 ## Description
 
