@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
@@ -12,16 +12,19 @@ function Zoo() {
   const [search, setSearch] = useState('');
 
   return (
-    <Container>
-      <input
-        type="text"
-        onChange={({ target }) => {
-          setSearch(target.value);
-        }}
-        placeholder="Search by type"
-        className="myInput input form-control row"
-      />
-      <Row className={ZooCSS.zooRow}>
+    <Row className={ZooCSS.zooContainer}>
+      <Row>
+        <input
+          type="text"
+          onChange={({ target }) => {
+            setSearch(target.value);
+          }}
+          placeholder="Search by type"
+          className="input"
+        />
+      </Row>
+
+      <div className={ZooCSS.zooRow}>
         {zooAnimals
           .filter((item) => item.animal_type.toLowerCase().includes(search.toLowerCase()))
           .map((item) => (
@@ -45,8 +48,8 @@ function Zoo() {
               item_detail={item.item_detail}
             />
           ))}
-      </Row>
-    </Container>
+      </div>
+    </Row>
   );
 }
 
