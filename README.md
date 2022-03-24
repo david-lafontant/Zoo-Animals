@@ -5,13 +5,14 @@
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
->Zoo's Animals list and show informations about animals, such as their diet, habitat, type, lifespan  using data from the [Zoo Animal API](https://zoo-animal-api.herokuapp.com/).
+>Zoo's Animals list and show information about animals, such as their diet, habitat, type, lifespan  using data from the [Zoo Animal API](https://zoo-animal-api.herokuapp.com/).
 
 ## Table of Contents
 
 - [Zoo's Animals](#zoos-animals)
   - [Table of Contents](#table-of-contents)
   - [Live Demo](#live-demo)
+  - [Presentation video](#presentation-video)
   - [Description](#description)
   - [Built With](#built-with)
   - [Getting Started](#getting-started)
@@ -38,13 +39,14 @@
     - [Deployment](#deployment)
     - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
 
-![screenshot](Animation02.gif)
+![screenshot](Animation.gif)
 
 ## Live Demo
 
-[Heroku](https://react-space-travel.herokuapp.com/)
+[Netlify](https://the-zoo-animal.netlify.app/)
 
-
+## Presentation video
+[Loom](https://www.loom.com/share/999987edd28b47f791da9dba7149a5f7)
 
 ## Description
 
