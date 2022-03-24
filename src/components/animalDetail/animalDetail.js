@@ -46,9 +46,11 @@ function AnimalDetail() {
       className={AnimalDetailCSS.detailStyle}
 
     >
+
       <Link to="/" className={AnimalDetailCSS.animalDetailLink}>
         <button type="button" className={AnimalDetailCSS.buttonLeft} onClick={handleBackClick}>Back</button>
       </Link>
+
       <ul className={AnimalDetailCSS.liste}>
         <ListGroup.Item style={{ backgroundColor: '#3b5b98' }} className={AnimalDetailCSS.detailStyle}>
 
