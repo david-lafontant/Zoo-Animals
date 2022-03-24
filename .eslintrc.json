@@ -19,7 +19,9 @@
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
       "no-use-before-define": "off",
+      "import/no-duplicates": "off",
       "default-param-last": "off",
+      "camelcase": "off",
       "no-shadow": "off",
       "max-len": "off"
     },
