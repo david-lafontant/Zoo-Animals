@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600&display=swap');
+.zooRow{
+    color: #fff;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.zooRow div:nth-of-type(even) {
+    background-color: #4268af;
+  }
+
+  .zooRow div:nth-of-type(odd) {
+    background-color: #3b5b98;
+  }
+
+ input.myInput{
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #3b5b98;
+    padding: 12px;
+    border:none;
+     width: 100%;
+     margin: 0;
+
+ } 
+  
+
+ 
