@@ -1,0 +1,20 @@
+.listStyle{
+    list-style-type: none;
+}
+
+.animalWidth{
+    height: 50vh;
+    padding-top: 1rem;
+}
+
+.animalWidth a{
+display: flex;
+justify-content: flex-end;
+}
+
+.buttonRight{
+   background: url('../../assets/circledRight.png') no-repeat;
+   background-size: contain;
+   color: transparent;
+   border-radius: 50%;
+}
