@@ -38,11 +38,11 @@
     - [Deployment](#deployment)
     - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
 
-![screenshot](Animation02.gif)
+![screenshot](Animation.gif)
 
 ## Live Demo
 
-[Heroku](https://react-space-travel.herokuapp.com/)
+[Netlify](https://the-zoo-animal.netlify.app/)
 
 
 
