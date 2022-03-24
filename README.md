@@ -1,3 +1,123 @@
+# Zoo's Animals
+
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+>Zoo's Animals list and show informations about animals, such as their diet, habitat, type, lifespan  using data from the [Zoo Animal API](https://zoo-animal-api.herokuapp.com/).
+
+## Table of Contents
+
+- [Zoo's Animals](#zoos-animals)
+  - [Table of Contents](#table-of-contents)
+  - [Live Demo](#live-demo)
+  - [Description](#description)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [Scripts](#scripts)
+    - [Start dev server](#start-dev-server)
+    - [Build for production](#build-for-production)
+  - [Connect With Us](#connect-with-us)
+  - [Show your support](#show-your-support)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run eject`](#npm-run-eject)
+  - [Learn More](#learn-more)
+    - [Code Splitting](#code-splitting)
+    - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    - [Making a Progressive Web App](#making-a-progressive-web-app)
+    - [Advanced Configuration](#advanced-configuration)
+    - [Deployment](#deployment)
+    - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+
+![screenshot](Animation02.gif)
+
+## Live Demo
+
+[Heroku](https://react-space-travel.herokuapp.com/)
+
+
+
+## Description
+
+Zoo's Animals is the React project from the Microverse Curriculum. You can:
+
+- See the list of animals.
+- See the detail about a specific animal.
+- Filter animals based on type.
+
+## Built With
+
+- [Create React App](https://create-react-app.dev/) Set up a modern web app by running one command.
+- [React Router](https://reactrouter.com/) A declarative library for building single page applications.
+- [Redux](https://redux-toolkit.js.org/) The official, opinionated, batteries-included toolset for efficient Redux development.
+- [React Bootstrap](https://react-bootstrap.github.io/) Build fast, responsive sites with Bootstrap.
+
+## Getting Started
+
+To get a local copy up and running follow these simple following steps.
+
+### Prerequisites
+
+- Node Js
+- Code editor
+- Git 
+
+### Setup
+
+1. Clone this project by typing in your terminal `git clone https://github.com/david-lafontant/zoo-animals.git` .
+2. Go to the directory with `cd zoo-animals`
+3. Open you favorite code editor ( Vs Code user have to type `code .`)
+4. Type `npm i` to download all the dependencies and enjoy!
+
+## Scripts
+
+### Start dev server
+
+- `npm start` open the browser at `http://localhost:3000`
+
+### Build for production
+
+- `npm run build`
+
+## Connect With Us
+
+
+👤 **David**
+
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@david-lafontant](https://github.com/david-lafontant)
+ **Twitter** | [@manikatex](https://twitter.com/manikatex)
+ **LinkedIn** | [David Lafontant](https://www.linkedin.com/in/david-lafontant/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+The ideas and inspiration from this project are coming from the following articles:
+
+- Microverse
+
+
+Original design idea by: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+## License
+
+This project is [MIT](MIT.md) licensed.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
