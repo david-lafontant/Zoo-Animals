@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
-import Animal from '../animal/animal';
+import Animal from '../../components/animal/animal';
 import ZooCSS from './zoo.module.css';
 
 function Zoo() {

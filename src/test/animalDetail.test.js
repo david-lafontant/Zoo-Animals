@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { MemoryRouter as Router } from 'react-router-dom';
 import store from '../redux/configureStore';
-import AnimalDetail from '../components/animalDetail/animalDetail';
+import AnimalDetail from '../pages/animalDetail/animalDetail';
 
 describe('Testing Animal Details', () => {
   it('Render the Animal Details page, should match to the snapshot', () => {

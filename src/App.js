@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Zoo from './components/zoo/zoo';
+import Zoo from './pages/zoo/zoo';
 import AnimalDetail from './pages/animalDetail/animalDetail';
 import Header from './components/header/header';
 
