@@ -12,44 +12,46 @@ function Animal(props) {
     dispatch(toggleDetail(id));
   };
   const {
-    id,
-    type,
-    name,
-    image,
-    weight_max,
-    lifespan,
+    id, type, name, image, weight_max, lifespan,
   } = props;
 
   return (
     <div className={AnimalCSS.animalWidth}>
+      <Link to={`/AnimalDetail/${id}`}>
+        <button
+          type="button"
+          className={AnimalCSS.buttonRight}
+          onClick={handleToggleClick}
+        >
+          DETAIL
+        </button>
+      </Link>
 
-      <Link to={`/AnimalDetail/${id}`}><button type="button" className={AnimalCSS.buttonRight} onClick={handleToggleClick}>DETAIL</button></Link>
       <ul className={AnimalCSS.listStyle}>
         <li style={{ paddingBottom: '2rem' }}>
-          <Card.Img src={image} alt={name} style={{ width: '100px', maxHeight: '30vh' }} />
+          <Card.Img
+            src={image}
+            alt={name}
+            style={{ width: '100px', height: '100px' }}
+          />
         </li>
         <li className={AnimalCSS.listInfo}>
           <span>Name :</span>
           <span>{name}</span>
-
         </li>
         <li className={AnimalCSS.listInfo}>
           <span>Type :</span>
           <span>{type}</span>
-
         </li>
         <li className={AnimalCSS.listInfo}>
           <span>Lifespan :</span>
           <span>{lifespan}</span>
-
         </li>
         <li className={AnimalCSS.listInfo}>
           <span>Weight (max) :</span>
           <span>{weight_max}</span>
-
         </li>
       </ul>
-
     </div>
   );
 }
@@ -61,7 +63,6 @@ Animal.propTypes = {
   type: PropTypes.string.isRequired,
   lifespan: PropTypes.string.isRequired,
   weight_max: PropTypes.string.isRequired,
-
 };
 
 export default Animal;
