@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
