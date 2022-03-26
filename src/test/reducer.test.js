@@ -9,7 +9,7 @@ describe('When we give wrong action in detailsReducer ', () => {
       detail: true,
     }];
 
-    const WRONG_ACTION = 'stock-performance/home/WRONG_ACTION';
+    const WRONG_ACTION = 'zoo/zoo/WRONG_ACTION';
     const action = { type: WRONG_ACTION, payload: state };
 
     // act
